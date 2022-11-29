@@ -21,3 +21,11 @@ light.addEventListener('click', function(e){
     }
     lampText.textContent = pressed == 1 ? `Du har tänt lampan ${pressed} gång` : `Du har tänt lampan ${pressed} gånger`;
 })
+
+
+
+function toggle2() {
+  document.getElementById("#bulb").toggle('bulb-på');
+  console.log("hey");
+
+    }
