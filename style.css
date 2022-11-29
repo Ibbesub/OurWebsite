@@ -11,13 +11,17 @@
     height: 400px;
     background: url('lightoff.png') no-repeat;
     margin: auto;
+    position: absolute;
+    
 
 }
 
 .bulb-on{
-
+    width: 265px;
+    height: 400px;
     background: url('lighton.png') no-repeat;;
-
+    margin: auto;
+    position: absolute;
 }
 
 .lamp-on{
@@ -63,7 +67,6 @@ body
 {
     /* display: flex; */
     justify-content: center;
-    align-items: center;
     background: #333
     height 100vh;
 }

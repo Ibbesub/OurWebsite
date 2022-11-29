@@ -22,8 +22,8 @@ light.addEventListener('click', function(e){
     {
         pressed++;
     } 
-    e.target.style.left = getRandom(0,500-200)+'px';
-    e.target.style.top = getRandom(0,500-200)+'px';
+    e.target.style.left = getRandom(0,1600-200)+'px';
+    e.target.style.top = getRandom(0,1000-200)+'px';
     lampText.textContent = pressed == 1 ? `Du har tänt lampan ${pressed} gång` : `Du har tänt lampan ${pressed} gånger`;
 })
 
