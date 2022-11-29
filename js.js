@@ -1,5 +1,7 @@
 function toggle() {
     var x = document.getElementById("moreInformation");
+    var lamp = document.getElementById("lampis");
+    // lamp.style.toggle('lamp-on');
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
