@@ -11,5 +11,4 @@ light.addEventListener('click', function(e){
         pressed++;
     }
     lampText.textContent = pressed == 1 ? `Du har tänt lampan ${pressed} gång` : `Du har tänt lampan ${pressed} gånger`;
-
 })
