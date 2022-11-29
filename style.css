@@ -11,14 +11,35 @@
     height: 400px;
     background: url('lightoff.png') no-repeat;
     margin: auto;
+
 }
 
 .bulb-on{
+
+    background: url('lighton.png') no-repeat;;
+
+}
+
+.lamp-on{
+
+    background: url('glodlampa2on.png') no-repeat;
+
+
+}
+
+.lamp-off{
     width: 265px;
     height: 400px;
-    background: url('lighton.png') no-repeat;;
+    background: url('glodlampa2.png') no-repeat;;
     margin: auto;
 }
+
+
+#myUL{
+    list-style: none;
+    margin: 1; padding: 0;
+}
+
 .bulb-av{
     width: 265px;
     height: 400px;
@@ -40,7 +61,7 @@
 }
 body 
 {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     background: #333
@@ -89,4 +110,5 @@ label input:checked ~ span ion-icon
     color: rgba(255,255,255,1);
     filter: drop-shadow(0 0 5px #fff);
 }
+
 
