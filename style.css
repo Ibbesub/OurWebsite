@@ -11,6 +11,7 @@
     height: 400px;
     background: url('lightoff.png') no-repeat;
     margin: auto;
+
 }
 
 .bulb-on{
@@ -18,6 +19,8 @@
     height: 400px;
     background: url('lighton.png') no-repeat;;
     margin: auto;
+
+
 }
 *
 {
